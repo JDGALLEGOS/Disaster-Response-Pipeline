@@ -47,8 +47,11 @@ We are providing much of the flask web app for you, but feel free to add extra f
 
 ## File Description
 .
-├── app     
+
+├── app
+
 │   ├── run.py                           # Flask file that runs app
+
 │   └── templates   
 │       ├── go.html                      # Classification result page of web app
 │       └── master.html                  # Main page of web app    
