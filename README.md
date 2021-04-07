@@ -51,8 +51,8 @@ We are providing much of the flask web app for you, but feel free to add extra f
 ├── app       
 │   ├── run.py                           # Flask file that runs app      
 │   └── templates           
-│       ├── go.html                      # Classification result page of web app      
-│       └── master.html                  # Main page of web app          
+│           ├── go.html                      # Classification result page of web app      
+│           └── master.html                  # Main page of web app          
 ├── data                        
 │   ├── disaster_categories.csv          # Dataset including all the categories      
 │   ├── disaster_messages.csv            # Dataset including all the messages        
