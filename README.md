@@ -2,7 +2,7 @@
 
 Figure Eight has provided data related to messages, categorized into different classifications, that have been received during emergencies/disasters. This project try to recognize these categories in order to cater for quicker responses to the emergency messages. Using machine learning techniques, (Random Forest Classifier) we shold be able to predict the category.
 
-##Project Components
+## Project Components
 
 There are three components you'll need to complete for this project.
 1. ETL Pipeline
@@ -44,3 +44,26 @@ We are providing much of the flask web app for you, but feel free to add extra f
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
+
+## File Description
+.
+├── app     
+│   ├── run.py                           # Flask file that runs app
+│   └── templates   
+│       ├── go.html                      # Classification result page of web app
+│       └── master.html                  # Main page of web app    
+├── data                   
+│   ├── disaster_categories.csv          # Dataset including all the categories  
+│   ├── disaster_messages.csv            # Dataset including all the messages
+│   └── process_data.py                  # Data cleaning
+├── models
+│   ├── train_classifier.py              # Train ML model
+│   └── classifier.pkl                   # pikkle file of model   
+|
+├── notebooks
+|   ├── ETL Pipeline Preparation.ipynb   # Notebook of Data cleaning
+|   └── ML Pipeline Preparation          # Notebook of training ML model
+|   
+|── requirements.txt                     # contains versions of all libraries used.
+|
+└── README.md
