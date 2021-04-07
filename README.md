@@ -48,25 +48,24 @@ We are providing much of the flask web app for you, but feel free to add extra f
 ## File Description
 .
 
-├── app
-
-│   ├── run.py                           # Flask file that runs app
-
-│   └── templates   
-│       ├── go.html                      # Classification result page of web app
-│       └── master.html                  # Main page of web app    
-├── data                   
-│   ├── disaster_categories.csv          # Dataset including all the categories  
-│   ├── disaster_messages.csv            # Dataset including all the messages
-│   └── process_data.py                  # Data cleaning
-├── models
-│   ├── train_classifier.py              # Train ML model
-│   └── classifier.pkl                   # pikkle file of model   
-|
-├── notebooks
-|   ├── ETL Pipeline Preparation.ipynb   # Notebook of Data cleaning
-|   └── ML Pipeline Preparation          # Notebook of training ML model
-|   
-|── requirements.txt                     # contains versions of all libraries used.
-|
+├── app 
+│   ├── run.py                           # Flask file that runs app 
+│   └── templates       
+│       ├── go.html                      # Classification result page of web app 
+│       └── master.html                  # Main page of web app     
+├── data                    
+│   ├── disaster_categories.csv          # Dataset including all the categories   
+│   ├── disaster_messages.csv            # Dataset including all the messages   
+│   └── process_data.py                  # Data cleaning    
+├── models    
+│   ├── train_classifier.py              # Train ML model    
+│   └── classifier.pkl                   # pikkle file of model       
+|     
+├── notebooks      
+|   ├── ETL Pipeline Preparation.ipynb   # Notebook of Data cleaning      
+|   └── ML Pipeline Preparation          # Notebook of training ML model      
+|        
+|── requirements.txt                     # contains versions of all libraries used.     
+|     
 └── README.md
+       
