@@ -62,6 +62,9 @@ def clean_data(df):
     # drop duplicates
     df.drop_duplicates( inplace=True)
     
+    # drop related == 2, only keep 0 and 1
+    df.drop(df[df.related == 2].index, inplace=True)
+    
     return df
         
 def save_data(df, database_filename):
